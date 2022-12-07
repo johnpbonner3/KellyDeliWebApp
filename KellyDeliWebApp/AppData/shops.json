@@ -1,0 +1,41 @@
+{
+  "generated": "2022-11-25T16:45:30.000Z",
+  "shopNumber": "5",
+  "shops": [
+    {
+      "name": "SURBITON",
+      "fullAddress": "Waitrose, 15a Claremont Rd, Surbiton",
+      "postcode": "KT6 4QR",
+      "area": "Greater London",
+      "urlLink": "https://sushidaily.vmos.io/surbiton"
+    },
+    {
+      "name": "TONBRIDGE",
+      "fullAddress": "Sovereign Way, Tonbridge",
+      "postcode": "TN9 1RG",
+      "area": "South East",
+      "urlLink": "https://sushidaily.vmos.io/tonbridge"
+    },
+    {
+      "name": "MILL HILL",
+      "fullAddress": "Waitrose, 2 Langstone Way, London",
+      "postcode": "NW7 1GU",
+      "area": "Greater London",
+      "urlLink": "https://sushidaily.vmos.io/deliveroo-millhill"
+    },
+    {
+      "name": "CHATHAM",
+      "fullAddress": "ASDA, 387 Maidstone Rd, Chatham",
+      "postcode": "ME5 9SE",
+      "area": "South East",
+      "urlLink": "https://sushidaily.vmos.io/chatham"
+    },
+    {
+      "name": "ISLE OF DOGS",
+      "fullAddress": "151 E Ferry Rd, Isle of Dogs, London",
+      "postcode": "E14 3BT",
+      "area": "South East",
+      "urlLink": "https://sushidaily.vmos.io/isleofdogs"
+    }
+  ]
+}

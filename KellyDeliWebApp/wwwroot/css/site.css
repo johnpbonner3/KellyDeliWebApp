@@ -1,0 +1,142 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    --border-radius: 25px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display:block;
+    line-height:25px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -9px;
+    margin-left: -9px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+
+.button-col {
+    width: 30%;
+}
+.description-col {
+    width:70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-col {
+        display:inline-flex;
+        justify-content: space-evenly;
+    }
+    .description-col {
+        display:inline-flex;
+        min-width:100%;
+    }
+    .custom-button {
+        
+    }
+    .custom-button-link {
+        width:100%;
+    }
+}
+
+.green-text {
+    color: green !important;
+}
+
+.shops-container {
+    display:block;
+    max-width:560px;
+}
+
+.shops-information-container {
+    color: #001e42;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    border-top: 1px solid #001e42;
+}
+
+.shop-name {
+    left: 50%;
+    text-decoration: underline;
+    font-weight: 700;
+
+}
+
+.shops-information {
+    float:left;
+    margin-top: 10px;
+}
+
+.custom-button-link {
+    width: auto;
+    margin-top: auto;
+    background: rgba(0,0,0,0);
+    color: #001e42;
+    border: 1px solid #001e42;
+    display: inline-block;
+    position: relative;
+    padding: 16px 25px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    line-height: 11px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 23px;
+    transition: transform .2s ease-in-out,background .2s ease-in-out,color .2s ease-in-out;
+}
+
+    .custom-button-link:hover {
+        color: #fff;
+        background: #001e42;
+    }
+
+    .custom-button {
+    display: flex !important;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    height:100%;
+}

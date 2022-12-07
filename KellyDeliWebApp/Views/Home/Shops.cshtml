@@ -1,0 +1,50 @@
+﻿@model KellyDeliWebApp.Models.Shops
+
+@{
+    ViewData["Title"] = "Shops";
+}
+
+
+
+
+<div class="text-center">
+    <h1 class="page-title" style="text-align:left;">Shops</h1>
+    <div class="shops-container">
+    
+        @foreach (var item in Model.shops)
+         {
+            <div class="shops-information-container">
+                <div class="row">
+                    <div class="col">
+                        <div class="shop-name">
+                            @Html.DisplayFor(modelItem => item.name)
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col description-col">
+                        <div class="shops-information">
+                            <div>
+                                @Html.DisplayFor(modelItem => item.fullAddress)
+                            </div>
+                            <div>    
+                                @Html.DisplayFor(modelItem => item.postcode)
+                            </div>
+                            <div>
+                                @Html.DisplayFor(modelItem => item.area)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col button-col">
+                        <div class="custom-button">
+                            <a class="custom-button-link" href=@Html.DisplayFor(modelItem => item.urlLink)>Click & Collect</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                   
+         }
+    </div>
+</div>
